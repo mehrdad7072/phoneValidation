@@ -1,0 +1,224 @@
+body {
+    background-color: ghostwhite;
+
+}
+
+.navbar {
+    background-color: gainsboro;
+    font-size       : 0.6rem;
+    display         : inline-block;
+    width           : 100%;
+}
+
+.titlebar {
+    display      : inline-flex;
+    padding-right: 2rem;
+    float        : right;
+}
+
+.logo {
+    display        : flex;
+    margin-top     : 1rem;
+    justify-content: center;
+    flex-direction : column;
+}
+
+.logoName {
+    text-align   : center;
+    font-size    : 2rem;
+    margin-bottom: 0;
+    color: #00b7ff;
+}
+
+.logoDescription {
+    text-align : center;
+    margin-top : 0;
+    padding-top: 0;
+    color: #00b7ff;
+}
+
+.mobTitle {
+    display        : flex;
+    justify-content: center;
+    color: lightslategrey;
+    font-weight: lighter;
+}
+
+.myForm {
+    display        : flex;
+    justify-content: center;
+    
+}
+
+.container {
+    display        : flex;
+    flex-direction : column;
+    width          : 50%;
+    height         : 30%;
+    justify-content: center;
+}
+
+.mobInput {
+    display          : flex;
+    border           : 0px;
+    border-radius    : 10px;
+    width            : 70%;
+    /* margin-bottom : 2rem; */
+    margin-left      : 0.5rem;
+    padding-bottom   : 1rem;
+    padding-top      : 0.7rem;
+    justify-content  : right;
+    text-align       : center;
+}
+
+.mobInput::placeholder {
+    text-align: center;
+}
+
+.mobBtn {
+    display        : flex;
+    text-align     : center;
+    padding        : 1rem 0;
+    font-size      : 1rem;
+    border-radius  : 10px;
+    border         : 0;
+    justify-content: center;
+    margin-top     : 1rem;
+    background     : black 0.2;
+}
+
+.btnName {
+    opacity    : 50%;
+    color      : black;
+    margin     : 0;
+    font-weight: bold;
+}
+
+.subCon {
+    display         : flex;
+    background-color: white;
+    padding-bottom  : 0rem;
+    justify-content : space-between;
+}
+
+.la-phone {
+    justify-content: left;
+    margin         : 0.7rem 0 0 1rem;
+}
+
+.sideTitle {
+    display       : flex;
+    flex-direction: column;
+    margin        : 2.3rem 2rem 0 2rem;
+    width         : 70%;
+}
+
+.sTitle {
+    margin    : 0px;
+    text-align: right;
+}
+
+.ssTitle {
+    margin    : 0px;
+    text-align: right;
+}
+
+.detail {
+    display        : flex;
+    justify-content: flex-end;
+}
+
+.foot {
+    display               : flex;
+    position              : relative;
+    /* flex-direction     : column; */
+    /* align-items        : stretch; */
+    background-color      : lightgray;
+    width                 : 100%;
+    height                : 2rem;
+    margin-bottom         : 0px;
+    padding-bottom        : 0px;
+    justify-content       : space-between;
+}
+
+.leftF {
+    display : flex;
+    position: absolute;
+
+    /* width    : 70%; */
+    margin         : 0px;
+    /* left        : 6rem; */
+    /* flex-grow   : 1; */
+    justify-content: space-between;
+}
+
+.rightF {
+    display     : flex;
+    position    : absolute;
+    /* width    : 30%; */
+    margin      : 0px;
+    right       : 1.5rem;
+    /* flex-grow: 1; */
+
+}
+
+.footer2 {
+    margin      : 0px;
+    text-align  : left;
+    padding-left: 1rem;
+    padding-top : 0.6rem;
+}
+
+.footer1 {
+    text-align  : right;
+    margin      : 0px;
+    padding-left: 1rem;
+    padding-top : 0.5rem;
+
+}
+
+.footer3 {
+    margin       : 0px;
+    padding-top  : 0.5rem;
+    padding-right: 0.2rem;
+}
+
+.head {
+    margin-right : 0.2rem;
+    align-content: center;
+    padding-top  : 0.4rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+.detailA{
+    color: #00b7ff;
+}
+
+@media only screen and (min-width:768px) {
+    .mobBtn {
+        width        : 50%;
+        display      : flex;
+        text-align   : center;
+        padding      : 1rem 0;
+        font-size    : 1rem;
+        border-radius: 10px;
+        border       : 0;
+        margin-top   : 1rem;
+        justify-items: center;
+    }
+
+    .container {
+        align-items: center;
+    }
+
+    .subCon {
+        width: 50%;
+    }
+    .sideTitle{
+        width: 95%;
+    }
+}
